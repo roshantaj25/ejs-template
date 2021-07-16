@@ -1,0 +1,48 @@
+/* :root {
+  --text_color: #304163;
+} */
+
+body, html {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fff !important;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+table thead th {
+  border:  none !important;
+}
+
+form .error {
+  color: #ff0000;
+}
+
+.card {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.table-title {
+  max-width: fit-content;
+}
+
+/* sticky header */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+/* sticky header */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

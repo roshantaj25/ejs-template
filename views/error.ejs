@@ -1,0 +1,46 @@
+<body class="custom-scrollbar hide-scrollbar bg-body-light">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZTZ23J"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+		<div class="">
+			<div class="container">
+					<div class="text-bg text-center mt-md-5">
+						<h1 id="hello" class="text-bg font-weight-bold font-100 font-md-200 text-center">
+							<div class="text-div">
+								Oops!
+							</div>
+						</h1>
+						<div class="d-flex justify-content-center align-items-center">
+							<h5 class="error-code font-weight-bold font-20 font-family-pensumpro my-2">
+								<%= statusCode %> - 
+							</h5>
+							<div class="text-uppercase font-weight-bold font-20 font-family-pensumpro my-2">
+								&nbsp;
+								<%= message %>
+							</div>
+						</div>
+							<div class="font-16">
+								The page you are looking for might have been removed
+							</div>
+							<div class="font-16">
+								 had its name changed 
+								or is temporary unavailable.
+							</div>
+					</div>
+						<% if( error.stack ) {%>
+							<pre class="bg-lighter border-radius-6 p-4 my-3"><%= error.stack %></pre>
+							<% } %>
+							<div class="text-center">
+								<a href="/"
+								class="btn btn-danger btn-lg text-white font-weight-bold border-radius-40 px-4 text-capitalize shadow mb-5">
+										GO TO HOMEPAGE
+							</a>
+	
+							</div>
+						
+			</div>
+		</div>
+		</div>
+</body>
